@@ -35,6 +35,7 @@ class Dijkstra:
         In cost matrix each element has index, appropriate to
         city position into cities list. (i,j)th element is a price
         of travel from i-th city to j-th or otherwise.
+        If cities doesn't have connection, price will be inf.
         Note that matrix has to be symmetric, and has zeros
         on the main diagonal.
         Аfter creating an instance, it will store start_city, which
